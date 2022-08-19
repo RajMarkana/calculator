@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: whitesmoke;
+    font-family: poppins;
+    width: 100%;
+    height: 100%;
+}
+.main{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(70,31,212);
+    background: linear-gradient(324deg, rgba(70,31,212,1) 0%, rgba(31,178,212,1) 100%);
+/* background: #fff url(bg2.jpg) center center/cover no-repeat; */
+
+}
+.heading{
+    text-align: center;
+    color: whitesmoke;
+    border-bottom:2px solid white;
+}
+.innermain{
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+     
+    
+    padding: 20px;
+    border-radius: 15px;
+    width: 20pc;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.innermain input{
+    font-size: 1.5pc;
+    width: 90%;
+    height: 2pc;
+    border: none;
+    border-radius: 10px;
+    text-align: right;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+}
+.innermain .input p{
+    color: red;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.clear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-size: 1.3pc;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#clear{
+    margin-top: 1pc;
+    width: 50%;
+}
+
+#erase{
+   margin-top: 1pc;
+    width: 50%;
+    margin-top: 1pc;
+    width: 50%;
+
+}
+#equal{
+    background: rgb(70,31,212);
+    background: linear-gradient(120deg, rgb(92, 58, 214) 0%, rgba(31,178,212,1) 100%);
+    border-radius: 1pc;
+    height: 5pc;
+}
+.footer{
+    margin-top: 2pc;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+#website{
+    color: white;
+}

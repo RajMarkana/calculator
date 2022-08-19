@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Index.css">
+    
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="innermain">
+
+            <div class="heading">
+                <h2>Calculator</h2>
+                
+            </div>
+        
+            <div class="input">
+                <br>
+                <input type="text" name="Display" id="result" placeholder="0" disabled>
+                <p id="warn">*Please Enter Value Properly</p>
+            </div>
+
+            <div class="buttons">
+                
+                <div class="clear">
+                    <button value="C" id="clear">C</button>
+                    <button value="C" id="erase">CE</button>
+                </div>
+                <div class="row1 row">
+
+                    <button value="7" onclick="btnclick('7')">7</button>
+                    <button value="8" onclick="btnclick('8')">8</button>
+                    <button value="9" onclick="btnclick('9')">9</button>
+                    <button value="/" onclick="btnclick('/')">/</button>
+
+                </div>
+
+                <div class="row2 row">
+                    <button value="4" onclick="btnclick('4')" >4</button>
+                    <button value="5" onclick="btnclick('5')">5</button>
+                    <button value="6" onclick="btnclick('6')">6</button>
+                    <button value="-" onclick="btnclick('-')">-</button>
+
+                </div>
+
+                <div class="row3 row">
+                    <button value="1" onclick="btnclick('1')">1</button>
+                    <button value="2" onclick="btnclick('2')">2</button>
+                    <button value="3" onclick="btnclick('3')">3</button>
+                    <button value="+" onclick="btnclick('+')">+</button>
+
+                </div>
+
+                <div class="row4 row">
+                    <button value="." onclick="btnclick('.')">.</button>
+                    <button value="0" onclick="btnclick('0')">0</button>
+                    <button value="*" onclick="btnclick('*')">*</button>
+                    <button value="=" id="equal" >=</button>
+
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <p>Powered By <a href="https://rtechcode.rf.gd" id="website">RTECHCODE</a></p>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="JqueryFile.js"></script>
+    <script src="Index.js"></script>
+</body>
+</html>
